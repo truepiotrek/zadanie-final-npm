@@ -1,0 +1,16 @@
+/* global */
+.description {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 75px;
+  letter-spacing: -0,45px;
+}
+
+.container {
+  text-align: center;
+}
+
+.services-box {
+  width: 271px;
+}
+/*# sourceMappingURL=style.css.map */

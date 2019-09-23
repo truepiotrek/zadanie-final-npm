@@ -1,2 +1,17 @@
 $font-header: 'Montserrat', sans-serif;
 $font-text: 'Roboto Slab', serif;
+
+/* global */
+
+.description {
+    font-size: 18px;
+    font-family: $font-header;
+    line-height: 75px;
+    letter-spacing: -0,45px;
+}
+.container {
+    text-align: center;
+}
+.services-box {
+    width: 271px;
+}
