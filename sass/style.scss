@@ -6,12 +6,37 @@ $font-text: 'Roboto Slab', serif;
 .description {
     font-size: 18px;
     font-family: $font-header;
-    line-height: 75px;
+    line-height: 35px;
     letter-spacing: -0,45px;
 }
 .container {
     text-align: center;
+    width: 940px;
 }
 .services-box {
     width: 271px;
+}
+.services-text {
+    font-family: $font-text;
+    font-size: 14px;
+    letter-spacing: -0,35px;
+}
+.services i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fed136;
+    font-size: 30pxpx;
+    border: 2px solid #fed136;
+    border-radius: 50%;
+}
+.section-title {
+    position: relative;
+    font-size: 40px;
+    font-family: $font-header;
+}
+.section-subtitle {
+    font-style: italic;
+    font-family: $font-text;
+    font-size: 16px;
 }
