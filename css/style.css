@@ -11,8 +11,10 @@
   width: 940px;
 }
 
+/* services */
 .services-box {
   width: 271px;
+  padding: 30px;
 }
 
 .services-text {
@@ -43,7 +45,25 @@
   font-size: 16px;
 }
 
+/* portfolio */
 .portfolio {
   background-color: #f7f7f7;
+}
+
+.portfolio-box {
+  width: 271px;
+  padding: 30px;
+}
+
+.portfolio img {
+  max-width: 270px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.under-pic {
+  background-color: white;
+  width: 271px;
 }
 /*# sourceMappingURL=style.css.map */
