@@ -56,20 +56,14 @@
   font-size: 0;
 }
 
-.portoflio-pic {
-  width: 270px;
-}
-
-.portfolio img {
-  max-width: 270px;
-  height: 270px;
-  -o-object-fit: cover;
-     object-fit: cover;
+.portfolio-pic {
+  padding-top: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 .under-pic {
   background-color: white;
-  width: 270px;
   overflow: hidden;
 }
 
