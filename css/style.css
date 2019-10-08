@@ -51,19 +51,25 @@
 }
 
 .portfolio-box {
-  width: 271px;
+  width: 270px;
   padding: 30px;
+  font-size: 0;
+}
+
+.portoflio-pic {
+  width: 270px;
 }
 
 .portfolio img {
   max-width: 270px;
-  height: 200px;
+  height: 270px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .under-pic {
   background-color: white;
-  width: 271px;
+  width: 270px;
+  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */
