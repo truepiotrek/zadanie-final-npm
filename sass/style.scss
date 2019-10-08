@@ -29,7 +29,7 @@ $font-text: 'Roboto Slab', serif;
     height: 40px;
     line-height: 40px;
     color: #fed136;
-    font-size: 30pxpx;
+    font-size: 30px;
     border: 2px solid #fed136;
     border-radius: 50%;
 }
@@ -66,4 +66,8 @@ $font-text: 'Roboto Slab', serif;
     background-color: white;
     width: 270px;
     overflow: hidden;
+}
+//footer tags
+footer p {
+    font-family: $font-text;
 }

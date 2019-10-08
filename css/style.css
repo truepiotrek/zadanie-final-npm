@@ -28,7 +28,7 @@
   height: 40px;
   line-height: 40px;
   color: #fed136;
-  font-size: 30pxpx;
+  font-size: 30px;
   border: 2px solid #fed136;
   border-radius: 50%;
 }
@@ -71,5 +71,9 @@
   background-color: white;
   width: 270px;
   overflow: hidden;
+}
+
+footer p {
+  font-family: "Roboto Slab", serif;
 }
 /*# sourceMappingURL=style.css.map */
