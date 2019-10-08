@@ -1,8 +1,7 @@
 $font-header: 'Montserrat', sans-serif;
 $font-text: 'Roboto Slab', serif;
 
-/* global */
-
+//global
 .description {
     font-size: 18px;
     font-family: $font-header;
@@ -13,8 +12,7 @@ $font-text: 'Roboto Slab', serif;
     text-align: center;
     width: 940px;
 }
-/* services */
-
+//services
 .services-box {
     width: 271px;
     padding: 30px;
@@ -44,26 +42,45 @@ $font-text: 'Roboto Slab', serif;
     font-size: 16px;
 }
 
-/* portfolio */
-
+// portfolio
 .portfolio {
     background-color: #f7f7f7; 
 }
 .portfolio-box {
-    width: 270px;
     padding: 30px;
-    font-size: 0;
 }
 .portfolio-pic {
     padding-top: 100%;
     background-position: center;
-    background-size: cover
+    background-size: cover;
 }
 .under-pic {
     background-color: white;
     overflow: hidden;
 }
+
 //footer tags
 footer p {
     font-family: $font-text;
+    margin: 16px 0;
+}
+footer .container {
+    display: flex;
+}
+footer .circle {
+    border-radius: 50%;
+    font-size: 20px;
+    background: black;
+    width: 30px;
+    height: 30px;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+footer .circle i {
+    vertical-align: middle;
+}
+footer a {
+    text-decoration: none;
+    color: white;
 }
