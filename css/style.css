@@ -7,7 +7,7 @@
 
 .container {
   text-align: center;
-  width: 940px;
+  max-width: 940px;
 }
 
 body {
@@ -15,7 +15,6 @@ body {
 }
 
 .services-box {
-  width: 271px;
   padding: 30px;
 }
 
@@ -66,7 +65,7 @@ body {
   overflow: hidden;
 }
 
-footer p {
+footer .footer-content {
   font-family: "Roboto Slab", serif;
   margin: 16px 0;
 }
@@ -93,11 +92,11 @@ footer .circle i {
 footer a {
   text-decoration: none;
   color: white;
+  padding: 0 5px;
 }
 
 .header {
   background-image: url("https://i.postimg.cc/ZK0d75cF/cloudiness-clouds-cloudscape-3022417.jpg");
-  height: 70vh;
   position: relative;
   background-position: center center;
   background-size: cover;
@@ -106,5 +105,42 @@ footer a {
 
 .header img {
   padding: 15px;
+}
+
+ul {
+  font-family: "Roboto Slab", serif;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.header-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+
+button {
+  background-color: gold;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+  font-size: 25px;
+  font-family: "Roboto Slab", serif;
+  padding: 10px;
+}
+
+.welcome-msg {
+  padding: 150px 20px 150px 20px;
 }
 /*# sourceMappingURL=style.css.map */
