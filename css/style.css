@@ -10,6 +10,10 @@
   width: 940px;
 }
 
+body {
+  margin: 0;
+}
+
 .services-box {
   width: 271px;
   padding: 30px;
@@ -89,5 +93,14 @@ footer .circle i {
 footer a {
   text-decoration: none;
   color: white;
+}
+
+.header {
+  background-image: url("https://i.postimg.cc/ZK0d75cF/cloudiness-clouds-cloudscape-3022417.jpg");
+  height: 70vh;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 /*# sourceMappingURL=style.css.map */

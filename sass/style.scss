@@ -12,6 +12,9 @@ $font-text: 'Roboto Slab', serif;
     text-align: center;
     width: 940px;
 }
+body {
+    margin: 0;
+}
 //services
 .services-box {
     width: 271px;
@@ -83,4 +86,14 @@ footer .circle i {
 footer a {
     text-decoration: none;
     color: white;
+}
+
+// header
+.header {
+    background-image: url('https://i.postimg.cc/ZK0d75cF/cloudiness-clouds-cloudscape-3022417.jpg');
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
